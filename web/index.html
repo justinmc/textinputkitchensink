@@ -29,10 +29,86 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>textinputplayground</title>
+  <title>Text Input Showcase</title>
   <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    h1 {
+      margin-left: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: blue;
+      display: block;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    a:hover {
+      background-color: #f0f0f0;
+    }
+    section {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
+  <h1 style="position: absolute; top: 0; left: 0;">Text Input Showcase</h1>
+  <ul>
+    <li>
+      <a href="#login">
+        <strong>Login</strong><br>
+        A login form with email and password fields.
+      </a>
+    </li>
+    <li>
+      <a href="#purchase">
+        <strong>Purchase</strong><br>
+        A checkout form with autofill functionality.
+      </a>
+    </li>
+    <li>
+      <a href="#profile">
+        <strong>Profile Creation</strong><br>
+        A multi-field data entry form for profile creation.
+      </a>
+    </li>
+    <li>
+      <a href="#chat">
+        <strong>Chat</strong><br>
+        A message input field with a send button.
+      </a>
+    </li>
+  </ul>
+  <section id="login">
+    <h2>Login</h2>
+    <p>Login form will go here.</p>
+  </section>
+  <section id="purchase">
+    <h2>Purchase</h2>
+    <p>Checkout form will go here.</p>
+  </section>
+  <section id="profile">
+    <h2>Profile Creation</h2>
+    <p>Profile creation form will go here.</p>
+  </section>
+  <section id="chat">
+    <h2>Chat</h2>
+    <p>Chat input will go here.</p>
+  </section>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
